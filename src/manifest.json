@@ -1,0 +1,29 @@
+{
+	// 必须的字段
+	"name": "chrome定时器",
+	"version": "1.2",
+	"manifest_version": 2,
+	"permissions": [
+	"notifications", 
+	"tabs", 
+	"*://*/*", 
+	"webRequestBlocking", //注意这里一定要写 
+	"webRequest"
+	],
+	// 建议提供的字段
+	"description": "一个提供定时提醒功能的谷歌浏览器插件",
+	"icons": {
+		"128": "img/icon-128.png",
+		"16": "img/icon-16.png",
+		"32": "img/icon-32.png",
+		"48": "img/icon-128.png"
+	},
+	"background": {
+		"page": "bg.html"
+	},
+	"browser_action": {
+		"default_icon": "img/icon-128.png",
+		"default_title": "chrome定时器",
+		"default_popup": "index.html"
+	}
+}  

@@ -1,0 +1,67 @@
+body {
+	font-family: "lucida console", "微软雅黑";
+	width: 250px;
+	overflow: hidden;
+	position: relative;
+}
+.main {
+	width: 750px;
+	height: 400px;
+	position: absolute;
+	left: -250px;
+	top: 0;
+}
+a{
+	cursor: pointer;
+}
+.page {
+	width: 250px;
+	height: 100%;
+	float: left;
+	position: relative;
+	padding-bottom: 72px;
+}
+.donateQr{
+	width: 100%;
+}
+
+
+.page .list{
+	width: 230px;
+	margin: 0 auto;
+}
+.page .list ul{
+	height: 250px;	
+	overflow: auto;
+}
+.page>*:only-child {
+	width: 230px;
+	margin: 0 auto;
+}
+.date-field {
+	width: 250px;
+}
+#date {
+	width: 140px;
+}
+.form-inline div.block {
+	display: block;
+	margin: 10px 0;
+}
+
+input[type=checkbox].form-control:focus{
+	outline: none;
+	border: none;
+	box-shadow:none;
+}
+.footer{
+	width: 100%;
+	height: 72px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.footer hr{
+	margin: 10px 0;
+}
